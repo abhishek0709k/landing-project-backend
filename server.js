@@ -8,7 +8,7 @@ const Contact = require("./models/contact.models.js");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors({ origin: ["https://68010fbff96aa77db1849c69--landing-page-project-frontend.netlify.app","http://localhost:5173"] }));
+app.use(cors({ origin: ["https://680110ed86b5f6006596f98c--landing-page-project-frontend.netlify.app","http://localhost:5173"] }));
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI)
